@@ -954,3 +954,13 @@ require('lazy').setup({
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+
+-- Sammy's personal configuration
+--------------------------------------------------------------------------
+vim.g.netrw_banner = 0 -- hide banner
+vim.g.netrw_hide = 1 -- hide invisible files
+vim.g.netrw_liststyle = 3 -- tree view; change mode with i
+vim.g.netrw_winsize = 15 -- netrw width
+vim.opt.tabstop = 4 -- tab width
+vim.keymap.set('n', '<c-e>', '<cmd>Lex<CR>')
+--------------------------------------------------------------------------
